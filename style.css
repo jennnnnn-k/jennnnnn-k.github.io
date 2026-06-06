@@ -1,0 +1,13 @@
+body {
+    background-image: linear-gradient(to top, #efefef, #98ffbf);
+    height: 100vh;
+}
+
+#profilePicture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.card {
+    margin:150px;
+}
