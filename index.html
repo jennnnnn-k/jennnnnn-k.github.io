@@ -6,15 +6,119 @@
     <title>Jennifer Abiño | Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <img src="asset/picture.jpg" alt="profile picture" id="profilePicture">
-        <div class="card">
+    <div class="container-fluid shadow" id="header">
+        <div class="row align-items-center py-3 px-5">
+            <div class="col-lg-4 col-sm-6">
+                <img src="asset/logo/logo_black.svg" alt="Logo" id="logo">
+            </div>
+            <div class="col-8">
+                <nav>
+                    <div class="d-flex justify-content-end gap-4">
+                        <a href="#" class="text-decoration-none nav-link active">Home</a>
+                        <a href="projects.html" class="text-decoration-none nav-link">Projects</a>
+                        <a href="about_me.html" class="text-decoration-none nav-link">About Me</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="card rounded-5 mx-5 mb-5 border-0" id="banner">
+            <div class="row">
+                <div class="col-4">
+                    <img src="asset/IMG_4472.JPG" alt="personal_img" class="w-100 rounded-5">
+                </div>
+                <div class="col-8 p-5">
+                    <h1 class="my-5">Hi, I'm Kylie!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum aspernatur dolor
+                        incidunt tenetur molestias saepe molestiae magnam voluptates aperiam quis delectus
+                        exercitationem temporibus maxime optio corrupti perferendis, impedit eaque.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow p-5 m-5">
+            <div class="text-center">
+                <h1 class="mb-5">Services</h1>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="svc-card card text-center p-3">
+                        <img class="p-5" src="asset/svg/Monitor.svg" alt="service icon">
+                        <div class="card-body">
+                            <h4 class="card-title">UI/UX Design</h4>
+                            <hr>
+                            <p class="card-text">UI/UX design and planning &bull; Responsive design layouts &bull;
+                                Design prototyping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="svc-card card text-center p-3">
+                        <img class="p-5" src="asset/svg/Globe.svg" alt="service icon">
+                        <div class="card-body">
+                            <h4 class="card-title">Website Development</h4>
+                            <hr>
+                            <p class="card-text">Portfolio websites &bull; Business websites &bull;
+                                Front-end/Back-end development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="svc-card card text-center p-3">
+                        <img class="p-5" src="asset/svg/Database.svg" alt="service icon">
+                        <div class="card-body">
+                            <h4 class="card-title">Database Systems</h4>
+                            <hr>
+                            <p class="card-text">Database design and modeling &bull; CRUD system implementation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="svc-card card text-center p-3">
+                        <img class="p-5" src="asset/svg/Rss.svg" alt="service icon">
+                        <div class="card-body">
+                            <h4 class="card-title">Network Configuration</h4>
+                            <hr>
+                            <p class="card-text">LAN setup and configuration &bull; Router/switch configuration
+                                &bull; IP addressing and subnetting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5" id="footer">
+        <div class="d-flex flex-column align-items-center">
+            <img src="asset/logo/logo_with_name_white.svg" alt="logo" id="logo_f">
+            <div class="d-flex align-items-center mt-3">
+                <a href="mailto:jk.abino@gmail.com" target="_blank" style="color: #FFF8F0;">
+                    <img src="asset/svg/mail.svg" alt="mail" class="svg me-2">
+                </a>
+                <a href="mailto:jk.abino@gmail.com" target="_blank" style="color: #FFF8F0;">
+                    <span>jk.abino@gmail.com</span>
+                </a>
+            </div>
+            <div class="d-flex align-items-center mt-4 gap-2">
+                <a href="https://www.facebook.com/kylie.abino" target="_blank">
+                    <img src="asset/svg/Facebook.svg" alt="facebook" class="svg">
+                </a>
+                <a href="https://www.instagram.com/jkylie_a/" target="_blank">
+                    <img src="asset/svg/Instagram.svg" alt="instagram" class="svg">
+                </a>
+                <a href="https://github.com/jennnnnn-k" target="_blank">
+                    <img src="asset/svg/Github.svg" alt="" class="svg">
+                </a>
+            </div>
+            <p class="mt-5" id="credit">© 2026 Jennifer Kylie Abino. All Rights Reserved.</p>
         </div>
     </div>
 </body>
+
 </html>

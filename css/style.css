@@ -1,0 +1,84 @@
+/* #FAF6EB → #F6F0E0 → #F1E9D2 → #E4D8B7 → #D4C39D → #BFA77A */
+
+#header {
+    background-color: #FAF6EB;
+    margin-bottom: 5%;
+}
+
+#logo {
+    height: clamp(40px, 10vw, 80px);
+}
+
+.active {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+#banner {
+    background-color: #f1e9d2;
+}
+
+.svc-card {
+    transition: ease 0.3s;
+    height: 100%;
+    border: 0;
+}
+
+.svc-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: #BFA77A solid 2px;
+}
+
+.card-title {
+    min-height: 4rem;
+}
+
+.card-text {
+    font-size: clamp(10px, 5vw, 13px);
+}
+
+#footer {
+    background-color: #D4C39D;
+}
+
+#logo_f {
+    height: clamp(100px, 20vw, 150px);
+}
+
+#svg_mail {
+    height: clamp(10px, 3vw, 30px);
+}
+
+.svg {
+    height: clamp(10px, 3vw, 25px);
+}
+
+#credit {
+    color: #F6F0E0;
+}
