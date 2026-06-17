@@ -7,129 +7,319 @@
     <link rel="icon" type="image/svg+xml" href="asset/logo/logo_white.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container-fluid shadow" id="header">
-        <div class="row align-items-center py-3 px-5">
-            <div class="col-lg-4 col-sm-6">
-                <img src="asset/logo/logo_black.svg" alt="Logo" id="logo">
-            </div>
-            <div class="col-8">
-                <nav>
-                    <div class="d-flex justify-content-end gap-4">
-                        <a href="#" class="text-decoration-none nav-link active">Home</a>
-                        <a href="projects.html" class="text-decoration-none nav-link">Projects</a>
-                        <a href="about_me.html" class="text-decoration-none nav-link">About Me</a>
-                    </div>
-                </nav>
-            </div>
+    <nav class="navbar navbar-expand-lg shadow sticky-top px-5 py-3 glass-navbar">
+        <a class="navbar-brand" href="#">
+            <img src="asset/logo/logo_black.svg" alt="Logo" id="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Projects</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
 
-    <div class="container">
-        <div class="card rounded-5 mx-5 mb-5 border-0" id="banner">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                    <img src="asset/IMG_4472.JPG" alt="personal_img" class="w-100 h-100 rounded-5 shadow">
-                </div>
-                <div class="col-lg-8 col-sm-12 p-5">
-                    <h1 class="my-lg-5">Hi, I'm Kylie!</h1>
-                    <p>I am a Bachelor of Science in Information Technology student studying at Polythecnic University
-                        of the Philippines Sto Tomas Campus.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- skills -->
-    <div class="container">
-        <div class="card shadow p-5 m-5">
-            <div class="text-center">
-                <h1 class="mb-lg-5 mb-sm-4">Skills</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="svc-card card text-center p-3">
-                        <img class="p-5" src="asset/svg/Monitor.svg" alt="service icon">
-                        <div class="card-body">
-                            <p class="card-title"><strong>UI/UX Design</strong></p>
-                            <hr>
-                            <p class="card-text">UI/UX design and planning &bull; Responsive design layouts &bull;
-                                Design prototyping</p>
-                        </div>
+    <section id="home">
+        <div class="container">
+            <div class="card rounded-5 mx-5 border-0" id="banner">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="asset/self_img.JPG" alt="personal_img" class="w-100 h-100 rounded-5 shadow">
                     </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="svc-card card text-center p-3">
-                        <img class="p-5" src="asset/svg/Globe.svg" alt="service icon">
-                        <div class="card-body">
-                            <p class="card-title"><strong>Website Development</strong></p>
-                            <hr>
-                            <p class="card-text">Portfolio websites &bull; Business websites &bull;
-                                Front-end/Back-end development</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="svc-card card text-center p-3">
-                        <img class="p-5" src="asset/svg/Database.svg" alt="service icon">
-                        <div class="card-body">
-                            <p class="card-title"><strong>Database Systems</strong></p>
-                            <hr>
-                            <p class="card-text">Database design and modeling &bull; CRUD system implementation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="svc-card card text-center p-3">
-                        <img class="p-5" src="asset/svg/Rss.svg" alt="service icon">
-                        <div class="card-body">
-                            <p class="card-title"><strong>Network Configuration</strong></p>
-                            <hr>
-                            <p class="card-text">LAN setup and configuration &bull; Router/switch configuration
-                                &bull; IP addressing and subnetting</p>
-                        </div>
+                    <div class="col-lg-8 col-sm-12 p-5">
+                        <h1 class="my-lg-4">Hi, I'm Kylie!</h1>
+                        <p style="text-indent: 50px;">I am a Bachelor of Science in Information Technology student at
+                            the
+                            Polytechnic University of the
+                            Philippines – Sto. Tomas Campus. I enjoy creating systems, learning new technologies, and
+                            exploring different software and hardware. One of my greatest interests is learning new
+                            programming languages and applying them to create meaningful projects and innovative
+                            solutions.
+                            Through this portfolio, I share information about myself, along with my projects, skills,
+                            and
+                            achievements, as I continue my journey in the field of Information Technology.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- projects -->
-    <div class="container">
-        <div class="card rounded-5 mx-5 mb-5 py-4 border-0 shadow" id="banner">
-            <h1 class="text-center">
-                Projects
-            </h1>
-        </div>
-    </div>
+    </section>
 
     <!-- about me -->
-    <div class="container">
-        <div class="card rounded-5 mx-5 mb-5 py-4 border-0 shadow" id="banner">
-            <h1 class="text-center">
-                About Me
-            </h1>
-        </div>
-
-        <div class="row justify-content-center align-items-center gap-2">
-            <div class="card col-7 p-3">
-                <div class="row">
-                    <div class="col-6">
-                        Personal Information
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center gap-2">
+                <div class="col-lg-8">
+                    <div class="about_me_card h-100 card p-3">
+                        <div class="row">
+                            <div class="col-5">
+                                <p class="about_me"><strong>Personal Information</strong></p>
+                                <hr>
+                                <div class="" style="text-indent: 20px;">
+                                    <p><strong>Full Name</strong></p>
+                                    <p class="info ms-4">Jennifer Kylie Abiño</p>
+                                    <p><strong>Age</strong></p>
+                                    <p class="info ms-4">20 years old</p>
+                                    <p><strong>Hobbies</strong></p>
+                                    <ul class="info ms-4">
+                                        <li>Reading</li>
+                                        <li>Crocheting</li>
+                                        <li>Arts and Crafts</li>
+                                        <li>Building and Assembly Projects (e.g., LEGO and model kits)</li>
+                                    </ul>
+                                    <p><strong>Interests</strong></p>
+                                    <ul class="info ms-4">
+                                        <li>Games</li>
+                                        <li>Music</li>
+                                        <li>Books</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <p class="about_me"><strong>Education</strong></p>
+                                <hr>
+                                <div class="" style="text-indent: 20px;">
+                                    <p><strong>Elementary</strong></p>
+                                    <p class="info ms-4">
+                                        Puro Elementary School
+                                    </p>
+                                    <p><strong>Junior High School</strong></p>
+                                    <p class="info ms-4">
+                                        Looc Integrated School
+                                    </p>
+                                    <p><strong>Senior High School</strong></p>
+                                    <p class="info ms-4">
+                                        Science, Technology, Engineering, and Mathematics (STEM)<br>
+                                        Laguna College of Business and Arts </p>
+                                    <p><strong>College</strong></p>
+                                    <p class="info ms-4">
+                                        Bachelor of Science in Information Technology<br>
+                                        Polytechnic University of the Philippines – Sto. Tomas Campus
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6">
-                        Education
+                </div>
+                <div class="col-lg-3">
+                    <div class="about_me_card h-100 card p-3">
+                        <p class="about_me"><strong>Contact</strong></p>
+                        <hr>
+                        <p><i class="bi bi-facebook"></i>
+                            <a href="https://facebook.com/kylie.abino" target="_blank" class="text-decoration-none">
+                                Facebook
+                            </a>
+                        </p>
+                        <p><i class="bi bi-instagram"></i>
+                            <a href="https://instagram.com/jkylie_a" target="_blank" class="text-decoration-none">
+                                Instagram
+                            </a>
+                        </p>
+                        <p><i class="bi bi-envelope"></i> Email</p>
+                        <a href="mailto:jk.abino@gmail.com" target="_blank">
+                            <p class="info ms-4">jk.abino@gmail.com</p>
+                        </a>
+                        <p><i class="bi bi-github"></i> GitHub</p>
+                        <a href="https://github.com/jennnnnn-k" target="_blank">
+                            <p class="info ms-4">github.com/jennnnnn-k</p>
+                        </a>
+                        <p><i class="bi bi-geo-alt"></i> Location</p>
+                        <p class="info ms-4">Laguna, Philippines</p>
                     </div>
                 </div>
             </div>
-            <div class="card col-4 p-3">Contact</div>
         </div>
-    </div>
+    </section>
 
-    <div class="container-fluid pt-5" id="footer">
+    <!-- skills -->
+    <section id="skill">
+        <div class="container">
+            <div class="card shadow p-5 m-5">
+                <div class="text-center">
+                    <h1 class="mb-lg-5 mb-sm-4">Skills</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="skl-card card text-center p-3">
+                            <img class="p-5" src="asset/svg/Monitor.svg" alt="service icon">
+                            <div class="card-body">
+                                <p class="card-title"><strong>UI/UX Design</strong></p>
+                                <hr>
+                                <p class="card-text">UI/UX design and planning &bull; Responsive design layouts &bull;
+                                    Design prototyping</p>
+                                <small>Cisco Packet Tracer, Network Fundamentals</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="skl-card card text-center p-3">
+                            <img class="p-5" src="asset/svg/Globe.svg" alt="service icon">
+                            <div class="card-body">
+                                <p class="card-title"><strong>Web Development</strong></p>
+                                <hr>
+                                <p class="card-text">Portfolio websites &bull; Business websites &bull;
+                                    Front-end/Back-end development</p>
+                                <small>HTML, CSS, JavaScript, PHP, Bootstrap</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="skl-card card text-center p-3">
+                            <img class="p-5" src="asset/svg/Database.svg" alt="service icon">
+                            <div class="card-body">
+                                <p class="card-title"><strong>Database Systems</strong></p>
+                                <hr>
+                                <p class="card-text">Database design and modeling &bull; CRUD system implementation</p>
+                                <small>MySQL, SQL, ERD Design</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="skl-card card text-center p-3">
+                            <img class="p-5" src="asset/svg/Rss.svg" alt="service icon">
+                            <div class="card-body">
+                                <p class="card-title"><strong>Networking Fundamentals</strong></p>
+                                <hr>
+                                <p class="card-text">LAN setup and configuration &bull; Router/switch configuration
+                                    &bull; IP addressing and subnetting</p>
+                                <small>Cisco Packet Tracer, Network Fundamentals</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section id="project">
+        <div class="container">
+            <div class="section_title card rounded-5 mx-5 mb-5 py-4 border-0">
+                <h1 class="text-center">
+                    Projects
+                </h1>
+            </div>
+
+            <!-- Tin-the-Hut -->
+            <div class="projectCarousel border-0 shadow card p-lg-3 m-lg-5 m-sm-3">
+                <div id="tinTheHutCarousel" class="carousel slide m-5">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#tinTheHutCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="asset/project_ss/Tin-the-Hut/Homepage.png" class="d-block w-100"
+                                alt="Tin-the-Hut">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Tin-the-Hut</h5>
+                                <p>Homepage</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Express-O -->
+            <div class="projectCarousel border-0 shadow card p-lg-3 m-lg-5 m-sm-3">
+                <div id="expressOCarousel" class="carousel slide m-5">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#expressOCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#expressOCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#expressOCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#expressOCarousel" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#expressOCarousel" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#expressOCarousel" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="asset/project_ss/Express-O/Homepage.png" class="d-block w-100" alt="Tin-the-Hut">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Express-O</h5>
+                                <p>Homepage</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" id="ordering_page">
+                            <img src="asset/project_ss/Express-O/Ordering Page.png" class="d-block w-100"
+                                alt="Tin-the-Hut">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Express-O</h5>
+                                <p>Ordering Page</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asset/project_ss/Express-O/Check out Page.png" class="d-block w-100"
+                                alt="Tin-the-Hut">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Express-O</h5>
+                                <p>Check-out Page</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asset/project_ss/Express-O/Order Confirmation.png" class="d-block w-100"
+                                alt="Tin-the-Hut">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Express-O</h5>
+                                <p>Order Confirmation Page</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asset/project_ss/Express-O/Cart Page.png" class="d-block w-100" alt="Tin-the-Hut">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Express-O</h5>
+                                <p>Cart Page</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asset/project_ss/Express-O/Log-in Page.png" class="d-block w-100"
+                                alt="Tin-the-Hut">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Express-O</h5>
+                                <p>Log-in Page</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#expressOCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#expressOCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <div class="container-fluid pt-5 mt-5" id="footer">
         <div class="d-flex flex-column align-items-center">
             <img src="asset/logo/logo_with_name_white.svg" alt="logo" id="logo_f">
             <div class="d-flex align-items-center mt-3">
@@ -154,6 +344,10 @@
             <p class="mt-5" id="credit">© 2026 Jennifer Kylie Abino. All Rights Reserved.</p>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
