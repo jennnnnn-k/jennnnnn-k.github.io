@@ -1,4 +1,8 @@
 /* #FAF6EB → #F6F0E0 → #F1E9D2 → #E4D8B7 → #D4C39D → #BFA77A */
+* {
+    transition: 0.5 ease;
+}
+
 html {
     scroll-behavior: smooth;
 }
