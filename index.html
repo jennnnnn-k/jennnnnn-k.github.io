@@ -42,14 +42,15 @@
 
     <section id="home">
         <div class="container">
-            <div class="card rounded-5 mx-5 border-0" id="banner">
+            <div class="card rounded-5 mx-lg-5 border-0" id="banner">
                 <div class="row">
                     <div class="col-lg-4 col-sm-12">
                         <img src="asset/self_img.JPG" alt="personal_img" class="w-100 h-100 rounded-5 shadow">
                     </div>
                     <div class="col-lg-8 col-sm-12 p-5">
-                        <h1 class="my-lg-4">Hi, I'm Kylie!</h1>
-                        <p class="mt-sm-3" style="text-indent: 50px;">I am a Bachelor of Science in Information Technology student at
+                        <h1 class="my-lg-4" id="greetings">Hi, I'm Kylie!</h1>
+                        <p class="mt-sm-3" id="summary" style="text-indent: 50px;">I am a Bachelor of Science in Information
+                            Technology student at
                             the
                             Polytechnic University of the
                             Philippines – Sto. Tomas Campus. I enjoy creating systems, learning new technologies, and
@@ -73,22 +74,22 @@
                 <div class="col-lg-8">
                     <div class="about_me_card h-100 card p-3">
                         <div class="row">
-                            <div class="col-5">
+                            <div class="col-lg-5 col-sm-12">
                                 <p class="about_me"><strong>Personal Information</strong></p>
                                 <hr>
                                 <div class="" style="text-indent: 20px;">
-                                    <p><strong>Full Name</strong></p>
+                                    <p class="info-title"><strong>Full Name</strong></p>
                                     <p class="info ms-4">Jennifer Kylie Abiño</p>
-                                    <p><strong>Age</strong></p>
+                                    <p class="info-title"><strong>Age</strong></p>
                                     <p class="info ms-4">20 years old</p>
-                                    <p><strong>Hobbies</strong></p>
+                                    <p class="info-title"><strong>Hobbies</strong></p>
                                     <ul class="info ms-4">
                                         <li>Reading</li>
                                         <li>Crocheting</li>
                                         <li>Arts and Crafts</li>
                                         <li>Building and Assembly Projects (e.g., LEGO and model kits)</li>
                                     </ul>
-                                    <p><strong>Interests</strong></p>
+                                    <p class="info-title"><strong>Interests</strong></p>
                                     <ul class="info ms-4">
                                         <li>Games</li>
                                         <li>Music</li>
@@ -96,23 +97,23 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-7">
+                            <div class="col-lg-7 col-sm-12 mt-sm-3">
                                 <p class="about_me"><strong>Education</strong></p>
                                 <hr>
                                 <div class="" style="text-indent: 20px;">
-                                    <p><strong>Elementary</strong></p>
+                                    <p class="info-title"><strong>Elementary</strong></p>
                                     <p class="info ms-4">
                                         Puro Elementary School
                                     </p>
-                                    <p><strong>Junior High School</strong></p>
+                                    <p class="info-title"><strong>Junior High School</strong></p>
                                     <p class="info ms-4">
                                         Looc Integrated School
                                     </p>
-                                    <p><strong>Senior High School</strong></p>
+                                    <p class="info-title"><strong>Senior High School</strong></p>
                                     <p class="info ms-4">
                                         Science, Technology, Engineering, and Mathematics (STEM)<br>
                                         Laguna College of Business and Arts </p>
-                                    <p><strong>College</strong></p>
+                                    <p class="info-title"><strong>College</strong></p>
                                     <p class="info ms-4">
                                         Bachelor of Science in Information Technology<br>
                                         Polytechnic University of the Philippines – Sto. Tomas Campus
@@ -123,28 +124,28 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="about_me_card h-100 card p-3">
+                    <div class="about_me_card h-100 card p-4">
                         <p class="about_me"><strong>Contact</strong></p>
                         <hr>
                         <p><i class="bi bi-facebook"></i>
-                            <a href="https://facebook.com/kylie.abino" target="_blank" class="text-decoration-none">
+                            <a href="https://facebook.com/kylie.abino" target="_blank" class="text-decoration-none info">
                                 Facebook
                             </a>
                         </p>
                         <p><i class="bi bi-instagram"></i>
-                            <a href="https://instagram.com/jkylie_a" target="_blank" class="text-decoration-none">
+                            <a href="https://instagram.com/jkylie_a" target="_blank" class="text-decoration-none info">
                                 Instagram
                             </a>
                         </p>
-                        <p><i class="bi bi-envelope"></i> Email</p>
+                        <p class="info-title"><i class="bi bi-envelope"></i> Email</p>
                         <a href="mailto:jenniferkylieabino@gmail.com" target="_blank">
                             <p class="info ms-4">jenniferkylieabino@gmail.com</p>
                         </a>
-                        <p><i class="bi bi-github"></i> GitHub</p>
+                        <p class="info-title"><i class="bi bi-github"></i> GitHub</p>
                         <a href="https://github.com/jennnnnn-k" target="_blank">
                             <p class="info ms-4">github.com/jennnnnn-k</p>
                         </a>
-                        <p><i class="bi bi-geo-alt"></i> Location</p>
+                        <p class="info-title"><i class="bi bi-geo-alt"></i> Location</p>
                         <p class="info ms-4">Laguna, Philippines</p>
                     </div>
                 </div>
@@ -168,7 +169,7 @@
                                 <hr>
                                 <p class="card-text">UI/UX design and planning &bull; Responsive design layouts &bull;
                                     Design prototyping</p>
-                                <small>Figma</small>
+                                <p class="equip">Figma</p>
                             </div>
                         </div>
                     </div>
@@ -180,7 +181,7 @@
                                 <hr>
                                 <p class="card-text">Portfolio websites &bull; Business websites &bull;
                                     Front-end/Back-end development</p>
-                                <small>HTML, CSS, JavaScript, PHP, Bootstrap</small>
+                                <p class="equip">HTML, CSS, JavaScript, PHP, Bootstrap</p>
                             </div>
                         </div>
                     </div>
@@ -191,7 +192,7 @@
                                 <p class="card-title"><strong>Database Systems</strong></p>
                                 <hr>
                                 <p class="card-text">Database design and modeling &bull; CRUD system implementation</p>
-                                <small>MySQL, SQL, ERD Design</small>
+                                <p class="equip">MySQL, SQL, ERD Design</p>
                             </div>
                         </div>
                     </div>
@@ -203,7 +204,7 @@
                                 <hr>
                                 <p class="card-text">LAN setup and configuration &bull; Router/switch configuration
                                     &bull; IP addressing and subnetting</p>
-                                <small>Cisco Packet Tracer, Network Fundamentals</small>
+                                <p class="equip">Cisco Packet Tracer, Network Fundamentals</p>
                             </div>
                         </div>
                     </div>
@@ -331,7 +332,7 @@
                     <div class="card p-4 h-100">
                         <h5>Networking Basics</h5>
                         <p>Cisco Networking Academy</p>
-                        <small>2025</small>
+                        <p>2025</p>
                     </div>
                 </div>
             </div>
