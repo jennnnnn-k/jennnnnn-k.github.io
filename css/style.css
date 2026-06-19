@@ -5,7 +5,7 @@ html {
 
 .nav-link {
     color: #333;
-    font-weight: 500;
+    font-size: clamp(10px, 2.5vw, 15px);
     transition: 0.3s;
 }
 
@@ -14,13 +14,14 @@ html {
 }
 
 #logo {
-    height: clamp(0px, 10vw, 50px);
+    height: clamp(30px, 10vw, 50px);
 }
 
 .glass-navbar {
     background: rgba(250, 246, 235, 0.6);
     backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px); /* Safari support */
+    -webkit-backdrop-filter: blur(12px);
+    /* Safari support */
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     transition: 0.3s ease;
 }
