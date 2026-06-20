@@ -1,10 +1,15 @@
 /* #FAF6EB → #F6F0E0 → #F1E9D2 → #E4D8B7 → #D4C39D → #BFA77A */
 * {
-    transition: 0.5 ease;
+    transition: 0.5s ease;
 }
 
 html {
     scroll-behavior: smooth;
+    transition: 0.5 ease;
+}
+
+section {
+    scroll-margin-top: 150px;
 }
 
 .nav-link {
@@ -15,6 +20,13 @@ html {
 
 .nav-link:hover {
     color: #000;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #000 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
 }
 
 #logo {
